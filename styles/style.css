@@ -1,0 +1,11 @@
+
+body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f8fbff; color: #333; }
+header { background: #004488; color: #fff; padding: 20px; text-align: center; }
+.logo { height: 60px; }
+nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 10px; }
+nav ul li { display: inline-block; }
+nav ul li a, nav ul li select { color: white; background: transparent; border: none; font-size: 16px; font-weight: bold; text-decoration: none; }
+.hero { padding: 40px; text-align: center; background: #e6f0f9; }
+#assistant-popup { position: fixed; bottom: 15px; right: 15px; background: #fff; padding: 12px; border: 1px solid #ccc; border-radius: 10px; display: flex; align-items: center; gap: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+#assistant-popup img { height: 50px; }
+footer { text-align: center; padding: 10px; background: #004488; color: white; }
